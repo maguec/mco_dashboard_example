@@ -1,0 +1,18 @@
+<form action="/hostfilter" method="post">
+  <select name="request">
+    <option value="nrpe:runall">Run Monitoring Checks
+    <option value="puppetd:status">Check Puppet Status
+  </select><br>
+  <label for="fact">Fact:
+    <input name="fact">
+  </label>
+  <br>
+  <label for="value">Value:
+    <input name="value">
+  </label>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+  
+    
+  

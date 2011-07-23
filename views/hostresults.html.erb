@@ -1,0 +1,7 @@
+<table width="80%">
+<h2>Results for <%= request[:agent] %> <%= request[:action] %></h2>
+<% response.each do |k, v| %>
+<tr><td><%= k %></td><td><%= v %></td></tr>
+<% end %>
+</table>
+
